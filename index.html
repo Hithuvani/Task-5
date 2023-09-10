@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">    
+    <title>Music Store</title>
+</head>
+<body>
+    <nav>
+        <label class="logo"><span class="bi bi-music-note-beamed"></span> MuzicMart</label>
+        <ul>
+            <li><a href="#"><span class="bi bi-search"></span></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#"><span class="bi bi-cart"></span></a></li>
+        </ul>
+    </nav>
+
+<!--carousel-->
+<div class="carousel slide carousel-dark" id="topBanner" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1000">
+            <img src="m0.jpg" class="w-100 d-block">
+        </div>
+        <div class="carousel-item" data-bs-interval="1000">
+            <img src="m0-1.jpg" class="w-100 d-block">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+            <img src="m0-2.jpg" class="w-100 d-block">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+            <img src="m0-3.jpg" class="w-100 d-block">
+        </div>
+    </div>
+    <button class="carousel-control-prev" data-bs-target="#topBanner" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" data-bs-target="#topBanner" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+    <div class="carousel-indicators">
+        <button class="active" data-bs-slide-to="0" data-bs-target="#topBanner"></button>
+        <button data-bs-slide-to="1" data-bs-target="#topBanner"></button>
+        <button data-bs-slide-to="2" data-bs-target="#topBanner"></button>
+        <button data-bs-slide-to="3" data-bs-target="#topBanner"></button>
+    </div>
+
+</div>
+
+
+
+<!--cards-->
+<div class="container-fluid">
+    <main class="d-flex text-center">        
+        <div class="row">
+            <div class="col-4">
+                <div class="card p-2 m-2" style="width:250px">
+                    <img src="m-3.jpg" class="card-img-top">
+                    <div class="card-header">
+                        <h2 class="text-center">Guitar</h2>
+                    </div>
+                    <div class="card-body text-center">$1500</div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card p-2 m-2" style="width:250px">
+                    <img src="m-4.jpg" class="card-img-top">
+                    <div class="card-header">
+                        <h2 class=" text-center">Violin</h2>
+                    </div>
+                    <div class="card-body text-center text warning">$ 2500</div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card p-2 m-2" style="width:250px">
+                    <img src="m-10.jpg" class="card-img-top">
+                    <div class="card-header">
+                        <h2 class=" text-center">Cymbal</h2>
+                    </div>
+                    <div class="card-body text-center text warning">$ 1500</div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Add to Cart</button>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-4">
+                <div class="card p-2 m-2" style="width:250px">
+                    <img src="m-13.jpg" class="card-img-top">
+                    <div class="card-header">
+                        <h2 class=" text-center">Chalo</h2>
+                    </div>
+                    <div class="card-body text-center text warning">$ 3500</div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card p-2 m-2" style="width:250px">
+                    <img src="m-6.jpg" class="card-img-top">
+                    <div class="card-header">
+                        <h2 class=" text-center">Drums</h2>
+                    </div>
+                    <div class="card-body text-center text warning">$ 1700</div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card p-2 m-2" style="width:250px">
+                    <img src="m-7.jpg" class="card-img-top">
+                    <div class="card-header">
+                        <h2 class=" text-center">Tabala</h2>
+                    </div>
+                    <div class="card-body text-center text warning">$ 1500</div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card p-2 m-2" style="width:250px">
+                    <img src="m-11-banjo.jpg" class="card-img-top">
+                    <div class="card-header">
+                        <h2 class=" text-center">Banjo</h2>
+                    </div>
+                    <div class="card-body text-center text warning">$ 1900</div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card p-2 m-2" style="width:250px">
+                    <img src="m-11.jpg" class="card-img-top">
+                    <div class="card-header">
+                        <h2 class=" text-center">Speaker</h2>
+                    </div>
+                    <div class="card-body text-center text warning">$ 1000</div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card p-2 m-2" style="width:250px">
+                    <img src="m-15.jpg" class="card-img-top">
+                    <div class="card-header">
+                        <h2 class=" text-center">Retro Mike</h2>
+                    </div>
+                    <div class="card-body text-center text warning">$ 2000</div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>          
+        
+    </main>
+</div>
+
+
+<div class="container-fluid w-10 mt-5">
+    <h1 class = "text-white text-center bg-dark  p-2">My shopping Cart</h1>
+    <table class="table table-bordered ">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Action</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody id="cartItems">
+            <!-- Cart items -->
+        </tbody>
+        <td></td>
+        <td id = "Quantity"></td>
+
+        <td class = "fw-bold">
+            Total: 
+        <th id="cartTotal">Rs. 0.00</th>
+        </td>
+    </table>
+    <button class="btn btn-primary" onclick="clearCart()">Clear Cart</button>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+    <script src="main.js"></script>
+    <script src="addToCart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
